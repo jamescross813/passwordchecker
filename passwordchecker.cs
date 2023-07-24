@@ -36,7 +36,25 @@ namespace PasswordChecker
       if(Tools.Contains(input, specialChars)){
         score++;
       }
-      
+      switch(score){
+        case 1:
+          Console.WriteLine("1. Weak");
+          break;
+        case 2:
+          Console.WriteLine("2. Medium");
+          break;
+        case 3:
+          Console.WriteLine("3. Strong");
+          break;
+        case 4:
+          Console.WriteLine("4. Extremely strong!");
+          break;
+        case 5:
+          Console.WriteLine("5. Extremely strong!");
+          break;
+        default:
+          Console.WriteLine("No standards are met");
+          break;
       }
 
       
