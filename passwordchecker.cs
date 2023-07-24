@@ -12,7 +12,9 @@ namespace PasswordChecker
       string digits = "1234567890";
       string specialChars = "!=%;&_-#$^*@";
 
-      
+      Console.WriteLine("Please enter a password:");
+      string input = Console.ReadLine();
+
       }
 
       
